@@ -22,7 +22,7 @@
 
 ![GitHub-repository] ( https://github.com/paulooliveira152012/horiseon-2-)
 
-![Website ScreenShot](assets/images/ScreenShots/Screen%20Shot%202022-03-10%20at%203.40.46%20PM.png)
+![CSS ScreenShot](assets/images/ScreenShots/Screen%20Shot%20CSS.png)
 
 ![HTML ScreenShot](assets/images/ScreenShots/Screen%20Shot%20html.png)
 
