@@ -2,8 +2,6 @@
 
 ## Explanation and Result
 
-what, why, and how
-
 * The goal for this project was to improve the semantic structure, accessibility features and css commenting of the given page to better optimize the deployiment of the webpage, and improve user experience and website mantaincance.
 
 * I started with a given webpage already functioning, however, not semanticly structured, lacking accessibility atributes as well as lacking discriptive comments in the css properties and a appropriate README file.
@@ -21,4 +19,10 @@ what, why, and how
 * Some of the challenges I faced was understanding deciding how to use the `alt` attributes in a more accessible way, identifying the selector type for each element in the HTML structure, and submiting the project the right way which included the right links in the right places for reference.
 
 ![Finished and deployed website project](link)
+
+![Website ScreenShot](assets/images/ScreenShots/Screen%20Shot%202022-03-10%20at%203.40.46%20PM.png)
+
+![HTML ScreenShot](assets/images/ScreenShots/Screen%20Shot%20html.png)
+
+![WebsiteScreenshot](assets/images/ScreenShots/Screen%20Shot%202022-03-10%20at%203.40.46%20PM.png)
 
