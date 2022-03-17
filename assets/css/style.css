@@ -69,12 +69,12 @@ p {
 
 /*Class selector. This selector is targeting the hero section, inserting an image and specifying its proportions as well as the way it is positioned in relation to the webpage*/
 .hero {
-  height: 800px;
+  height: 300px;
   width: 100%;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
   background-image: url("../images/digital-marketing-meeting.jpg");
-  background-size: cover;
-  background-position: center;
+  background-size:cover;
+  background-position: bottom;
 }
 
 /*Class selector which is being used to align the "Social Media Marketing" image to the left of the text and implement a margin between the image and the "h2" and "p" elements */
@@ -124,15 +124,63 @@ p {
 }
 
 .container .benefits {
+  display: flex;
   width: auto;
   margin: auto;
   text-align: center;
 }
 
 .container .benefits div {
+  margin: 0 30px;
 }
 
+
 }
+
+@media screen and (max-width:680px){
+  .container .benefits {
+    display: block;
+  }
+}
+
+/* Query 880px for container */
+
+@media screen and (max-width: 880px){
+.container .content img {
+  display: block;
+  width: 200px;
+}
+}
+
+.content .search-engine-optimization  {
+  display: flex;
+  align-items: center;
+}
+
+.content .online-reputation-management {
+  display: flex;
+  align-items: center;
+}
+
+.content .social-media-marketing {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .content .search-engine-optimization img {
+    display: none;
+  }
+  
+  .content .online-reputation-management img {
+    display: none;
+  }
+  
+  .content .social-media-marketing img {
+    display: none;
+  }
+}
+
 
 /*Class selector targeting the child container of the aside selector giving it a margin and color.*/
 .benefit-lead {
