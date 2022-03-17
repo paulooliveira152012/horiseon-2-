@@ -61,6 +61,12 @@ p {
   font-size: 16px;
 }
 
+@media screen and (max-width: 1140px) {
+  header div li a {
+    display: none;
+  }
+}
+
 /*Class selector. This selector is targeting the hero section, inserting an image and specifying its proportions as well as the way it is positioned in relation to the webpage*/
 .hero {
   height: 800px;
@@ -90,16 +96,42 @@ p {
   margin-left: 20px;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*Class selector. This selector is targeting the "benefits" class which are attributed to the "aside" selector of the page by implementing it's appearence properties and the way it displays on the page.*/
 .benefits {
   margin-right: 20px;
   padding: 20px;
   clear: both;
-  float: right;
+  /* float: right; */
   width: 20%;
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
+}
+
+@media screen and (max-width: 970px) {
+.container {
+  display: block;
+}
+
+.container .content {
+  width: auto;
+  margin: 50px;
+}
+
+.container .benefits {
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.container .benefits div {
+}
+
 }
 
 /*Class selector targeting the child container of the aside selector giving it a margin and color.*/
